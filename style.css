@@ -32,20 +32,17 @@ body {
 }
 
 #logo {
-  border: 3px solid red;
   float: left;
   width: 20%;
 }
 
 .menu {
-  border: 3px solid navy;
   float: left;
   width: 60%;
   text-align: center;
 }
 
 #contact-info {
-  border: 3px solid greenyellow;
   float: left;
   width: 20%;
 }
@@ -67,7 +64,6 @@ body {
 }
 
 #contact-info .tell {
-  border: 3px solid orange;
   font-size: 1.2rem;
   margin: 25px auto 0px;
   text-align: center;
@@ -79,7 +75,6 @@ body {
 }
 
 .slider-half-item {
-  border: 3px solid goldenrod;
   width: 50%;
   float: left;
   height: 100%;
