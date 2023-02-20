@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+:root {
+  box-sizing: border-box;
+  color: white;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url(./zdjecia/wood-2203740_1280.jpg);
+}
+
+#header {
+  background: black;
+  padding: 5px;
+  font-family: "Cookie", cursive;
+  font-size: 1.2rem;
+}
+
+#logo img {
+  width: 60px;
+  margin-left: 10px;
+}
+
+.menu ul li a {
+  color: white;
+}
+
+#logo {
+  border: 3px solid red;
+  float: left;
+  width: 20%;
+}
+
+.menu {
+  border: 3px solid navy;
+  float: left;
+  width: 60%;
+  text-align: center;
+}
+
+#contact-info {
+  border: 3px solid greenyellow;
+  float: left;
+  width: 20%;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.menu ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.menu ul li a:hover {
+  color: #ffd77f;
+  transition: all 0.55s;
+}
+
+#contact-info .tell {
+  border: 3px solid orange;
+  font-size: 1.2rem;
+  margin: 25px auto 0px;
+  text-align: center;
+}
+
+.slider-box {
+  height: 200px;
+  background-color: black;
+}
+
+.slider-half-item {
+  border: 3px solid goldenrod;
+  width: 50%;
+  float: left;
+  height: 100%;
+  padding: 10px;
+  font-family: cursive, geneva;
+}
+.slider-half-item article {
+  margin: 2rem;
+}
+
+.slider-half-item article .button-section {
+  margin: 1rem;
+}
+
+.slider-half-item .button {
+  text-transform: uppercase;
+  padding: 8px;
+  text-decoration: none;
+  margin: 2px;
+  font-size: 0.7rem;
+}
+
+.book-button,
+.order-button {
+  color: #ffd77f;
+  border: 2px solid #ffd77f;
+}
+
+.book-button:hover,
+.order-button:hover {
+  background-color: #333333;
+}
+
+.pizza-img {
+  background-image: url(./zdjecia/pizza-3007395_1280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.advantages-box {
+  background-color: transparent;
+}
+
+.advantages-one-third {
+  width: 33.3%;
+  float: left;
+  padding: 20px;
+  margin: 30px 0px 30px;
+}
+
+.column-advantage {
+  height: 160px;
+  border: 5px solid black;
+  text-align: center;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.best-ingridients {
+  background-image: url(./zdjecia/olive-oil-1412361__340.jpg);
+}
+.original-recipe {
+  background-image: url(./zdjecia/cook-1375788_960_720.jpg);
+}
+.fast-delivery {
+  background-image: url(./zdjecia/motor-scooter-4837310_960_720.jpg);
+}
+
+.kitchen-menu {
+  background: black;
+}
+
+.menu-one-fourth {
+  width: 25%;
+  float: left;
+  font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.menu-one-fourth img {
+  max-width: 100%;
+}
+
+.page-footer {
+  width: 100%;
+  background-color: black;
+  font-family: "Cookie", cursive;
+}
